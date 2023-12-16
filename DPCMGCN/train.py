@@ -18,7 +18,7 @@ args = None
 def parse_args():
     parser = argparse.ArgumentParser(description='Train')
     # model and data parameters
-    parser.add_argument('--model_name', type=str, default='DPC-MGCN', help='the name of the model')
+    parser.add_argument('--model_name', type=str, default='DPCMGCN', help='the name of the model')
     parser.add_argument('--data_name', type=str, default='SEU', help='the name of the data')
     # parser.add_argument('--data_dir', type=str, default="F:\Data\JNU\data", help='the directory of the data')
     parser.add_argument('--data_dir', type=str, default="F:/Data/SEU/bearingset", help='the directory of the data')
