@@ -105,7 +105,7 @@ class MultiChev_B(torch.nn.Module):
 class MGCN(nn.Module):
 
     def __init__(self, pretrained=False, in_channel=256, out_channel=10):
-        super(MRF_GCN, self).__init__()
+        super(MGCN, self).__init__()
         if pretrained == True:
             warnings.warn("Pretrained model is not available")
 
