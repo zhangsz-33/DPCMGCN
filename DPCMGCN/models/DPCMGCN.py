@@ -8,9 +8,9 @@ from DPCMGCN.models.CNN import CNN, decoder, encoder, resnet18, BiLSTM
 from DPCMGCN.models.CNN import CoordAtt
 
 
-class DAGCN_features(nn.Module):
+class DPCMGCN(nn.Module):
     def __init__(self, pretrained=False):
-        super(DAGCN_features, self).__init__()
+        super(DPCMGCN, self).__init__()
         self.model_cnn = CNN(pretrained)
         # self.model_ae1 = encoder(pretrained)
         # self.model_ae2 = decoder(pretrained)
